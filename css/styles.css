@@ -1,5 +1,42 @@
-/* 
-    color-primary : #00C4A6;
-    color-secondary : #3C7AFC;
-    font-family : 'Courier New', Courier, monospace;
-*/
+body {
+
+    /*
+    
+    background: #00C4A6;
+    background: -webkit-linear-gradient(to right, #3C7AFC, #00C4A6);
+    background: linear-gradient(to right, #3C7AFC, #00C4A6);
+    
+    */
+
+
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+canvas {
+    height: 100vh !important;
+    position: absolute;
+    z-index: 2;
+}
+
+.type-wrap {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#typed {
+    font-size: 60px !important
+}
+
+.typed-cursor {
+    font-size: 48px
+}
